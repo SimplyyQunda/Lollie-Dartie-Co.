@@ -2,26 +2,42 @@ import $ from 'jquery';
 
 //ajax request for product info
 
-var productInfo = $.ajax ({
-	url:'https://json-data.herokuapp.com/darts/info'
-}).then(function(data){ console.log(data.data.product) });
+function productInfo (){ 
+	return $.ajax ({
+		url:'https://json-data.herokuapp.com/darts/info'
+	});
+};
+
+
 
 //ajax request for partner companies logo
 
-var companyLogo = $.ajax({
-	url: 'https://json-data.herokuapp.com/darts/companies'
-}).then(function(data){ console.log(data)});
+function companyLogo (){
+	return $.ajax ({
+		url: 'https://json-data.herokuapp.com/darts/companies'
+	});	
+}; 
 
 // ajax request for user profile pictures
 
-var userProfile = $.ajax({
-	url: 'https://randomuser.me/api/'
-}).then(function(data){ console.log(data.results)});
+function userProfile () {
+	return $.ajax({
+		url: 'https://randomuser.me/api/'
+	});
+}; 
 
 //ajax request for testimonial
 
-var testmonInfo = $.ajax({
-	url: 'https://json-data.herokuapp.com/darts/testimonials'
-}).then(function(data){ console.log(data.results)});
+function  testmonInfo () {
+	return $.ajax({
+		url: 'https://json-data.herokuapp.com/darts/testimonials'
+	});
+};
 
 export {productInfo, companyLogo, userProfile, testmonInfo};
+
+
+
+
+
+
