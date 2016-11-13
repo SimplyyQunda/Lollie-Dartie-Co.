@@ -1,10 +1,74 @@
-// #googleMaps{
-// 	border: 1px solid blue;
-// 	height: 400px;
-// }
+#googleMaps{
+	height: 400px;
+	margin-top: 88px;
+
+	iframe{
+		width: 1309px;
+    	height: 203px
+	}
+}
+
+.profileUser{
+	height: 200px;
+}
+.Comlogo{
+	height: 230px;
+}
+
+.testimonyInfo{
+	display:flex;
+	text-align:center;
+}
+.testimony{
+	display: flex;
+    justify-content: space-around;
+
+}
 
 #infoAPI{
-	border: 1px solid red;
+	// border: 1px solid red;
 	height: 300px;
 	width: 500px;
+	float: right;
 }
+
+.title{
+	font-size: 30px;
+	font-family: 'Prociono', serif;
+	text-align: center;
+
+	.script{
+		font-size: 15px;
+		font-family: 'Hind', sans-serif;
+		text-align: center;
+	}
+}
+
+#slideImg{
+	
+}
+
+#dartsImg{
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	margin-bottom: 85px;
+
+	ul{
+		list-style: none;
+	}
+}
+
+.testScript{
+	// display: flex
+}
+
+.companyLt{
+	display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+
