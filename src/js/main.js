@@ -40,3 +40,31 @@ function rotateImg () {
 	$(document).ready(function(){
 		setInterval(rotateImg, 3000);
 	});
+
+
+//Function activate modal powers
+
+// var modals = $(".modal");
+// modals.click(shoppingCart);
+
+// function shoppingCart (event) {
+// 	var target = event.target;
+
+// 	if (target.id === "cart") {
+// 		$(".infoBox").addClass("open");
+// 		$("#close").removeClass("close");
+// };
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         alert("The paragraph was clicked.");
+//     });
+// });
+
+
+
+
+
+
+
+

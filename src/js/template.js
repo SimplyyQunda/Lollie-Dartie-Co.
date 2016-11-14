@@ -8,7 +8,7 @@ function getdesc (data) {
 	 <div class="title"> ${data.data.product.title} </div>
 	 <div class="script"> ${data.data.product.description} </div>
 	 <div id="media">
-	  <button class="cart">Add to Cart</button>
+	  <button id="cart">Add to Cart</button>
       <a href="http://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
       <a href="http://facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
       <a href="http://pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
@@ -43,9 +43,9 @@ function testmInfo (data) {
 		var infoTesti = data.review;
 		var infoName = data.name;
 
-		var testiHTML = `<div>
-						 <div> ${infoName}  </div>
-						 <div> ${infoTesti} </div>
+		var testiHTML = `<div class=>
+						 <div class="boxed" id="nameInfo"> ${infoName}  </div>
+						 <div class="boxed"> ${infoTesti} </div>
 						 </div>`
 		$('.testimonyInfo').append(testiHTML);
 	})
