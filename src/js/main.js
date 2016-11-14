@@ -48,34 +48,12 @@ var modal = document.getElementById('modalDarts');
 var cartBtn = document.getElementById("cart");
 var exit = document.getElementsByClassName("close")[0];
 
-cartBtn.onclick = function() {
-	console.log(hello)
-    modal.style.display = "block";
+$(document).on("click","#cart",function(){
+	modal.style.display = "block";
+}).on("click",".close", function(){
+	modal.style.display = "none";
+});
 
-};
-
-exit.onclick = function() {
-    modal.style.display = "none";
-};
-
-
-
-// var modals = $(".modal");
-// modals.click(shoppingCart);
-
-// function shoppingCart (event) {
-// 	var target = event.target;
-
-// 	if (target.id === "cart") {
-// 		$(".infoBox").addClass("open");
-// 		$("#close").removeClass("close");
-// };
-
-// $(document).ready(function(){
-//     $("button").click(function(){
-//         alert("The paragraph was clicked.");
-//     });
-// });
 
 
 

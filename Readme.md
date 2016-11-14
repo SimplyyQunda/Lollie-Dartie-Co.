@@ -1,3 +1,3 @@
 It has been a interesting week and I enjoyed creating this site. So check it out and let me know what you think ! 
-[Peluza Dartie Enterprise](tiy-daqundamagwood-lawndarts.surge.sh
+[Peluza Dartie Enterprise](http://tiy-daqundamagwood-lawndarts.surge.sh
 m)
