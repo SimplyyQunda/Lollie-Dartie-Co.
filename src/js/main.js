@@ -44,6 +44,22 @@ function rotateImg () {
 
 //Function activate modal powers
 
+var modal = document.getElementById('modalDarts');
+var cartBtn = document.getElementById("cart");
+var exit = document.getElementsByClassName("close")[0];
+
+cartBtn.onclick = function() {
+	console.log(hello)
+    modal.style.display = "block";
+
+};
+
+exit.onclick = function() {
+    modal.style.display = "none";
+};
+
+
+
 // var modals = $(".modal");
 // modals.click(shoppingCart);
 
