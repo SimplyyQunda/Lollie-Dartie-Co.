@@ -53,12 +53,3 @@ $(document).on("click","#cart",function(){
 }).on("click",".close", function(){
 	modal.style.display = "none";
 });
-
-
-
-
-
-
-
-
-
